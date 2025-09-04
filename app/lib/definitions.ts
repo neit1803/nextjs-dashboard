@@ -22,7 +22,7 @@ export type Invoice = {
   amount: number; // Stored in cents
   status: 'pending' | 'paid';
   date: string;
-};  
+};
 
 export type Revenue = {
   month: string;
@@ -84,3 +84,4 @@ export type InvoiceForm = {
   amount: number;
   status: 'pending' | 'paid';
 };
+
